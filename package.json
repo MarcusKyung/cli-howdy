@@ -1,6 +1,6 @@
 {
   "name": "cli-howdy",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "npm package designed to say howdy from the terminal",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarcusKyung/cli-howdy.git"
+  },
+  "bin": {
+    "cli-howdy": "./index.js"
   },
   "keywords": [
     "howdy",
